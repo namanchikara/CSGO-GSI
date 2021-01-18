@@ -1,9 +1,11 @@
 import map
 import player
 
+
 class GameStateManager:
     def __init__(self):
         self.gamestate = GameState()
+
 
 class GameState:
     def __init__(self):

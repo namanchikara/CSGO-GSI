@@ -1,4 +1,4 @@
-class Provider: 
+class Provider:
     def __init__(self):
         self.name = 'Counter-Strike: Global Offensive'
         self.appid = 730

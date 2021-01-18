@@ -5,8 +5,9 @@ class Player:
         self.observer_slot = -1
         self.activity = ''
         self.state = State()
-        self.weapons = {}   
+        self.weapons = {}
         self.match_stats = MatchStats()
+
 
 class State:
     def __init__(self):
@@ -20,6 +21,7 @@ class State:
         self.round_kills = 0
         self.round_killhs = 0
         self.equip_value = 0
+
 
 class MatchStats:
     def __init__(self):
